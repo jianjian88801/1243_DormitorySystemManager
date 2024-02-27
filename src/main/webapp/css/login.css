@@ -1,0 +1,82 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: whitesmoke;
+}
+
+#title{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+#login_box{
+    box-sizing: content-box;
+    width: 45%;
+    height: 335px;
+    margin: 190px auto;
+    background: rgba(255,255,255,0.96);
+    border-left: #1E9FFF solid 10px;
+
+    padding: 40px 0px;
+    box-shadow:#C0C4CC 2px 3px 9px 1px ;
+}
+#canvas{
+    cursor: pointer;
+}
+.layui-icon {
+    font-size: 22px;
+    display: inline;
+    margin-right: 7px;
+}
+
+.layui-form .layui-form-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.layui-form .layui-form-item:first-child{
+    margin-top: 50px;
+}
+
+.layui-input{
+    display: inline;
+    width: 60%;
+}
+/* .layui-form .layui-form-item:nth-child(3) .layui-input{
+    width: 50%;
+} */
+.layui-input:focus{
+    border-color: #1E9FFF !important;
+}
+#canvas{
+    width: 100px;
+    float: right;
+    margin-left: -100px;
+}
+
+#login{
+    background: #1E9FFF;
+}
+
+.layui-btn-primary{
+    border: 1px solid #1E9FFF;
+    color: #1E9FFF;
+    /* 动画属性设置 */
+    /* animation: move 2s ease forwards; */
+}
+
+.layui-btn-primary:hover{
+    color: #1E9FFF;
+}
+
+.sideCard{
+    width: 200px;
+    height: 375px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
